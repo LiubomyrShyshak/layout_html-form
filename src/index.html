@@ -15,13 +15,12 @@
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       autocomplete="off"
-      >
-
+    >
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         <label class="form-field">
             Surname:
-          <input 
+          <input
             type="text"
             name="Surname"
             required
@@ -37,7 +36,7 @@
         </label>
         <label class="form-field">
             How old are You?
-          <input 
+          <input
             type="number"
             value="12"
             min="1"
@@ -45,12 +44,12 @@
           >
         </label>
         <label class="form-field">
-            Full date of birth?
+            Full date of birth:
           <input type="date" name="date">
         </label>
         <label class="form-field">
             I accept the term of the agreement
-          <input 
+          <input
           type="checkbox"
           name="checkbox"
           value="off"
@@ -80,7 +79,7 @@
       </fieldset>
 
       <fieldset class="fieldset">
-        <legend>An interesting foct for you!</legend>
+        <legend>An interesting fact about you!</legend>
         <div class="form-field">
             Do you love cats?
           <label>
@@ -124,8 +123,7 @@
           How do you rate our work?
           <input
           type="range"
-          min="0"
-          max="100"
+          value="0"
           >
         </label>
       </fieldset>
@@ -143,7 +141,7 @@
           </select>
         </label>
       </fieldset>
-      <button type="submit">Submit</button>
+      <button class="fieldset" type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
   </body>
